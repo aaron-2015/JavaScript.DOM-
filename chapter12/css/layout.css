@@ -1,0 +1,44 @@
+section,header,article,footer,nav {
+    display: block;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    margin: 1em 10%;
+    background-image: url("../images/background.gif");
+    background-repeat: repeat-x;
+    background-position: top left;
+    background-attachment: fixed;
+    max-width: 80em;
+    border: .1em solid #9999aa;
+}
+header {
+    background-image: url("../images/guitarist.gif");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+header nav {
+    background-image: url("../images/navbar.gif");
+    background-position: bottom left;
+    background-repeat: repeat-x;
+}
+header nav ul {
+    width: 100%;
+}
+header nav ul li {
+    display: inline;
+}
+header nav li a {
+    padding: 0em 1em 0em 1em;
+    border-right: .1em solid #eeeeee;
+}
+header nav li:first-child {
+    margin-left: 8em;
+    border-left: .1em solid #eeeeee;
+}
+article {
+    padding: 2em 10%;
+    line-height: 1.8em;
+}
