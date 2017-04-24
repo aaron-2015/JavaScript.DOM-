@@ -23,21 +23,22 @@ header nav {
     background-image: url("../images/navbar.gif");
     background-position: bottom left;
     /*background-repeat: repeat-;*/
+    padding-left: 10%;
 }
 header nav ul {
     width: 100%;
+    overflow: hidden;
 }
 header nav ul li {
     display: inline;
 }
 header nav li a {
-    /*display: block;*/
-    /*float: left;*/
-    padding: 0em 1em 0em 1em;
+    display: block;
+    float: left;
+    padding: 0.5em 2em;
     border-right: .1em solid #eeeeee;
 }
-header nav li:first-child {
-    margin-left: 8em;
+header nav li a:first-child {
     border-left: .1em solid #eeeeee;
 }
 article {
