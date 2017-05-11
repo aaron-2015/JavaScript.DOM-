@@ -15,10 +15,23 @@ body {
     border: .1em solid #9999aa;
 }
 header {
-    background-image: url("../images/guitarist.gif");
     background-position: bottom right;
     background-repeat: no-repeat;
 }
+
+#home header {
+    background-image: url("../images/guitarist.gif");
+}
+#about header {
+    background-image: url("../images/lineup.gif");
+}
+#live header {
+    background-image: url("../images/guitarist.gif");
+}
+#home header {
+    background-image: url("../images/guitarist.gif");
+}
+
 header nav {
     background-image: url("../images/navbar.gif");
     background-position: bottom left;
