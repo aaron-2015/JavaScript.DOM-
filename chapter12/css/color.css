@@ -1,8 +1,7 @@
 body {
     color: #fb5;
-    /*background-color: #334;*/
+    background-color: #333344;
 }
-
 a:link {
     color: #445;
     background-color: #eb6;
@@ -17,7 +16,7 @@ a:hover {
 }
 a:active {
     color: #778;
-    background-color: ##ec8;
+    background-color: #ec8;
 }
 header {
     color: #ec8;
